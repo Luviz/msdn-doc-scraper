@@ -1,10 +1,9 @@
-
-
-import scraper 
+import scraper
 from argumentParser import ArgumentParser
 
 parser = ArgumentParser()
 args = parser.parse_args()
+
 
 def main():
     url = args.url
